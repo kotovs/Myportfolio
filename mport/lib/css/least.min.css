@@ -1,0 +1,63 @@
+
+#mport ul{list-style:none;border:0;margin:0;padding:0;outline:0}
+#mport section{min-width:100%; width:100%; min-height:100%;text-align:center;padding:30px 0;margin-bottom:30px;}
+#mport section #fullPreview{padding:50px 0 30px 0;display:none;}
+#mport section #fullPreview img,#mport section #fullPreview .fullCaption{max-width:960px;width:100%;margin:0 auto;display:block;}
+#mport section #fullPreview .fullCaption{font-family:Helvetica,Arial,sans-serif;font-size:13px;line-height:15px;font-weight:300;color: #3A3939;margin:15px auto 0 auto;}
+#mport section #fullPreview figure{background-image: url("../../plugins/mport/lib/img/close.png");
+  /*background-size*/
+  -webkit-background-size:100%;
+     -moz-background-size:100%;
+       -o-background-size:100%;
+          background-size:100%;
+  width:30px;
+  height:30px;
+  position:absolute;
+  top:10px;
+  right:20px;
+  cursor:pointer;
+}
+#mport section li{display:inline-block;vertical-align:top;position:relative;}
+#mport section li:hover .overLayer{
+  /*transition*/
+  -webkit-transition:opacity 0.3s linear;
+     -moz-transition:opacity 0.3s linear;
+       -o-transition:opacity 0.3s linear;
+          transition:opacity 0.3s linear;
+  opacity:0.6;
+  display:block;
+  background:gray;
+}
+#mport section li:hover .infoLayer{
+  /*transition*/
+  -webkit-transition:opacity 0.3s linear;
+     -moz-transition:opacity 0.3s linear;
+       -o-transition:opacity 0.3s linear;
+          transition:opacity 0.3s linear;
+  opacity:1;
+  display:block;
+}
+#mport section li a{display:block;width:240px;height:150px;position:absolute;top:10px;left:0;z-index:6;}
+#mport section li img{border:none;margin:10px 10px 0 0;}
+#mport section li .overLayer,#mport section li .infoLayer{
+  /*transition*/
+  -webkit-transition:opacity 0.3s linear;
+     -moz-transition:opacity 0.3s linear;
+       -o-transition:opacity 0.3s linear;
+          transition:opacity 0.3s linear;
+  width:240px;
+  height:150px;
+  position:absolute;
+  text-align:center;
+  opacity:0;
+  top:10px;
+  left:0;
+  z-index:4;
+  color: white;
+}
+#mport section li .overLayer ul,#mport section li .infoLayer ul{padding:25px 0 0 0;}
+section li .overLayer ul li,#mport section li .infoLayer ul li{display:block;margin:0 auto;width:200px;padding:0 0 5px 0;}
+#mport section li .overLayer ul li:first-child,#mport section li .infoLayer ul li:first-child{border-bottom:2px #fff solid;}
+#mport section li .overLayer ul li:last-child,#mport section li .infoLayer ul li:last-child{padding:5px 0 0 0;text-transform:lowercase;}
+#mport section li .overLayer ul li h2,#mport section li .infoLayer ul li h2{font-size:25px;}
+#mport section li .projectInfo{display:none;}

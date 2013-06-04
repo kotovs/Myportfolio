@@ -1,0 +1,35 @@
+<?php
+
+    return array(
+        'mport' => array(
+            'Myportfolio' => 'Myportfolio',
+            'Myportfolio plugin for Monstra' => 'Myportfolio plugin for Monstra',
+            'Portfolio' => 'Portfolio',
+            'Title' => 'Title',
+            'Info' => 'Info',
+            'Image' => 'Image',
+            'View picture' => 'View picture',
+            'Add item' => 'Add item',
+            'Settings' => 'Settings',
+            'Edit' => 'Edit',
+            'Delete' => 'Delete',
+            'Codes' => 'Codes',
+            'Are you sure' => 'Are you sure',
+            'Back' => 'Back',
+            'Insert width in px' => 'Insert width in px',
+            'Insert height in px' => 'Insert height in px',
+            'Insert max width in px' => 'Insert max width in px',
+            'Insert max height in px' => 'Insert max height in px',
+            'Resize options' => 'Resize options',
+            'Same width' => 'Same width',
+            'Same height' => 'Same height',
+            'Crop images' => 'Crop images',
+            'Crop images' => 'Crop images',
+            'Stretch images' => 'Stretch images',
+            'Your item has been added ' => 'Your item has been added ',
+            'Your item has been edit ' => 'Your item has been edit ',
+            'Your settings has been edit' => 'Your settings has been edit',
+            'Your item has been delete ' => 'Your item has been delete ',
+            'Save' => 'Save',
+        )
+    );
